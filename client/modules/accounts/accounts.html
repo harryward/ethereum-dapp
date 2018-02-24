@@ -1,5 +1,12 @@
 <template name="accounts">
-    <h4>Accounts</h4>
+    <p class="lead">Accounts</p>
+
+    <h4>Dropdown</h4>
+
+    {{> dapp_selectAccount accounts=accounts showAccountTypes=true}}
+
+
+    <h4>Table</h4>
     <table class="table-striped table-bordered table">
         <thead>
         <tr>

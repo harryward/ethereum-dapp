@@ -16,6 +16,8 @@ This is a simple Ethereum + Meteor dApp Boilerplate Application that comes with 
 
 `cd ethereum-dapp`
 
+`meteor npm install -save`
+
 `meteor --port 5406 --settings settings.json`
 
 4. Open the `ethereum-dapp`  in your favorite code editor
@@ -23,5 +25,18 @@ This is a simple Ethereum + Meteor dApp Boilerplate Application that comes with 
 
 
 
+## Blockchain RPC Api
 
+This Boilerplate defaults to my <b>Private</b> Blockchain Network.
+
+In your settings.json file you will see the private and public blockchain RPC urls.
+
+To switch networks, go to `/shared/web3-init.js`
+
+<pre>
+ "blockchain": {
+      "main": "http://72.174.42.154:4099",
+      "private":"http://72.174.42.154:2241"
+ }
+</pre>
 

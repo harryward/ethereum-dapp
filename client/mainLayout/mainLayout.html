@@ -1,7 +1,21 @@
 <template name="mainLayout">
 
-    <div class="container">
-        <h1>Ethereum Meteor Boilerplate</h1>
+    <div class="dapp-header">
+        <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-2 col-lg-3">
+                <img src="/logo.png" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container dapp-body">
+
+
+
+        <h1>dApp Boilerplate</h1>
+
+        {{>ticker}}
         {{>accounts}}
     </div>
 </template>
