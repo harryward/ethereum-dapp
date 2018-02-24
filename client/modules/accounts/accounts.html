@@ -1,0 +1,23 @@
+<template name="accounts">
+    <h4>Accounts</h4>
+    <table class="table-striped table-bordered table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Balance</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        {{#each accounts}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{> dapp_identicon identity=address class="dapp-tiny"}} {{address}}</td>
+                <td>{{bal balance}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</template>
