@@ -1,6 +1,13 @@
 # Ethereum Meteor dApp Boilerplate
 #### by <a href="https://www.linkedin.com/in/harryward1/">Harry Ward</a>
 
+
+## Donations
+
+Ether
+`0xC0efc2BE5ac7aa99866c29100E0c0e7948282AC8`
+
+
 ## Overview
 
 This is a simple Ethereum + Meteor dApp Boilerplate Application that comes with access to the Main Network, Test Network or Private Network via my RPC API. You do not have to be running <b>geth</b> on your local machine.
@@ -35,7 +42,7 @@ To switch networks, go to `/shared/web3-init.js`
 
 <pre>
  "blockchain": {
-      "main": "http://72.174.42.154:4099",
+      "main": "coming soon",
       "private":"http://72.174.42.154:2241"
  }
 </pre>

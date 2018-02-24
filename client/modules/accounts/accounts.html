@@ -1,11 +1,10 @@
 <template name="accounts">
     <p class="lead">Accounts</p>
 
-    <h4>Dropdown</h4>
-
-    {{> dapp_selectAccount accounts=accounts showAccountTypes=true}}
 
 
+
+    <div class="section">
     <h4>Table</h4>
     <table class="table-striped table-bordered table">
         <thead>
@@ -13,6 +12,7 @@
             <th>Name</th>
             <th>Address</th>
             <th>Balance</th>
+            <th>Faucet</th>
         </tr>
         </thead>
         <tbody>
@@ -20,11 +20,18 @@
 
         {{#each accounts}}
             <tr>
-                <td>{{name}}</td>
+                <td><a href="#" class="editName"><i class="fa fa-edit"></i></a> {{name}} </td>
                 <td>{{> dapp_identicon identity=address class="dapp-tiny"}} {{address}}</td>
-                <td>{{bal balance}}</td>
+                <td>{{bal balance}} <small>ether</small></td>
+                <td><div class="btn btn-primary btn-xs theFaucet"><i class="fa fa-shower"></i> 10 ether</div></td>
             </tr>
         {{/each}}
         </tbody>
     </table>
+
+        <h4>Create Account</h4>
+        <div class="button-container">
+            <div class="btn create-account btn-primary"><i class="fa fa-key"></i> Create Account</div>
+        </div>
+    </div>
 </template>

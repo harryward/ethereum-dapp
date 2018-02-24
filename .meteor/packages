@@ -31,8 +31,8 @@ kadira:flow-router
 kadira:blaze-layout
 ejson
 less
-patrickml:swal
+frozeman:global-notifications
 numeral:numeral
 ethereum:tools
-
-
+ethereum:blocks
+frozeman:persistent-minimongo2

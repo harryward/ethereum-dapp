@@ -1,0 +1,43 @@
+<template name="blocks">
+    <h3><i class="fa fa-shower"></i> Faucet Transactions</h3>
+    <div class="section">
+        {{#each transactions}}
+            <div class="list-group-item">
+
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="block-head">
+                            <div class="text-muted">{{_id}}</div>
+
+
+
+                            <div class="block-address">
+                                <div class="row lead">
+                                    <div class="col-sm-5">
+                                        {{> dapp_identicon identity=from class="dapp-tiny"}}{{fromAccount theTran.from}}
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                    <div class="col-sm-5">
+                                        {{> dapp_identicon identity=to class="dapp-tiny"}}{{toAccount theTran.to}}
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-2 text-right">
+                        <div class="lead text-primary">{{num theTran.value}} ether</div>
+                        <div class="text-muted">Gas <i class="fa fa-cab"></i> {{theTran.gas}}</div>
+
+                    </div>
+
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</template>

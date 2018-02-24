@@ -1,0 +1,14 @@
+<template name="faucet">
+    <div class="section">
+    <h3><i class="fa fa-shower"></i> Faucet</h3>
+    <form class="ethFaucet">
+
+        <div class="form-group">
+            {{> dapp_selectAccount class="dapp-large" accounts=accounts showAccountTypes=true}}
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submnit">Send 10 ether</button>
+        </div>
+    </form>
+    </div>
+</template>

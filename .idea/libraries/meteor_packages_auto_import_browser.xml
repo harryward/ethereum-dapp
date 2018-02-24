@@ -5,6 +5,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/minify.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/export_globals.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/ethereum_blocks/0.3.2/web.browser/blocks.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/es5-shim-sham.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/import_globals.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
@@ -42,9 +43,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/frozeman_storage/0.1.9/web.browser/LocalStore.js" />
         <item url="file://$USER_HOME$/.meteor/packages/alexvandesande_identicon/2.0.2/web.browser/lib/identicon.js" />
         <item url="file://$USER_HOME$/.meteor/packages/alexvandesande_identicon/2.0.2/web.browser/vendor/blockies/blockies.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/frozeman_global-notifications/0.2.1/web.browser/notifications.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/ethelements.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/selectGasPrice.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/patrickml_swal/1.0.0/web.browser/packages/patrickml_swal.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/addressInput.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/identicon.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/modal.js" />
@@ -76,7 +77,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/install-packages.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/process.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/reify.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/frozeman_persistent-minimongo2/0.3.5/web.browser/localforage.js" />
         <item url="file://$USER_HOME$/.meteor/packages/base64/1.0.11/web.browser/base64.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/frozeman_persistent-minimongo2/0.3.5/web.browser/persistent-minimongo.js" />
         <item url="file://$USER_HOME$/.meteor/packages/base64/1.0.11/web.browser/base64_test.js" />
         <item url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.4.0/web.browser/template-web.browser.js" />
         <item url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.4.0/web.browser/template-web.cordova.js" />
@@ -173,7 +176,6 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/view.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/materializer.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/template.js" />
-        <item url="file://$USER_HOME$/.meteor/packages/patrickml_swal/1.0.0/web.browser/packages/patrickml_swal/lib/client/sweetalert2.css" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/exceptions.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/attrs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/namespace.js" />
@@ -230,6 +232,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/minify.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/templatetag.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/export_globals.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/ethereum_blocks/0.3.2/web.browser/blocks.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/es5-shim-sham.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.7.3/web.browser/import_globals.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.11/web.browser/tokenize.js" />
@@ -267,9 +270,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/frozeman_storage/0.1.9/web.browser/LocalStore.js" />
       <root url="file://$USER_HOME$/.meteor/packages/alexvandesande_identicon/2.0.2/web.browser/lib/identicon.js" />
       <root url="file://$USER_HOME$/.meteor/packages/alexvandesande_identicon/2.0.2/web.browser/vendor/blockies/blockies.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/frozeman_global-notifications/0.2.1/web.browser/notifications.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/ethelements.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/selectGasPrice.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/patrickml_swal/1.0.0/web.browser/packages/patrickml_swal.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/addressInput.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/identicon.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/modal.js" />
@@ -301,7 +304,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/install-packages.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/process.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules/0.11.5/web.browser/reify.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/frozeman_persistent-minimongo2/0.3.5/web.browser/localforage.js" />
       <root url="file://$USER_HOME$/.meteor/packages/base64/1.0.11/web.browser/base64.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/frozeman_persistent-minimongo2/0.3.5/web.browser/persistent-minimongo.js" />
       <root url="file://$USER_HOME$/.meteor/packages/base64/1.0.11/web.browser/base64_test.js" />
       <root url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.4.0/web.browser/template-web.browser.js" />
       <root url="file://$USER_HOME$/.meteor/packages/boilerplate-generator/1.4.0/web.browser/template-web.cordova.js" />
@@ -398,7 +403,6 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/view.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/materializer.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/template.js" />
-      <root url="file://$USER_HOME$/.meteor/packages/patrickml_swal/1.0.0/web.browser/packages/patrickml_swal/lib/client/sweetalert2.css" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/exceptions.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.2/web.browser/attrs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/kadira_blaze-layout/2.3.0/web.browser/lib/client/namespace.js" />
