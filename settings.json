@@ -2,13 +2,13 @@
   "public": {
     "blockchain": {
       "main": "http://72.174.42.154:4099",
-      "private": "http://0.0.0.0:33034"
+      "private":"http://72.174.42.154:2241"
     }
   },
   "galaxy.meteor.com": {
     "env": {
-      "MONGO_URL": "mongodb://kayle:kayle123@kayleproduction-shard-00-00-nlayl.mongodb.net:27017,kayleproduction-shard-00-01-nlayl.mongodb.net:27017,kayleproduction-shard-00-02-nlayl.mongodb.net:27017/grizcard?ssl=true&replicaSet=kayleproduction-shard-0&authSource=admin",
-      "ROOT_URL": "https://grizcard.kayle.me"
+      "MONGO_URL": "",
+      "ROOT_URL": ""
     }
   }
 }
