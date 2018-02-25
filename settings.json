@@ -1,10 +1,4 @@
 {
-  "public": {
-    "blockchain": {
-      "main": "http://72.174.42.154:4099",
-      "private":"http://72.174.42.154:2241"
-    }
-  },
   "galaxy.meteor.com": {
     "env": {
       "MONGO_URL": "",
