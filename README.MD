@@ -36,14 +36,5 @@ This is a simple Ethereum + Meteor dApp Boilerplate Application that comes with 
 
 This Boilerplate defaults to my <b>Private</b> Blockchain Network.
 
-In your settings.json file you will see the private and public blockchain RPC urls.
 
-To switch networks, go to `/shared/web3-init.js`
-
-<pre>
- "blockchain": {
-      "main": "coming soon",
-      "private":"http://72.174.42.154:2241"
- }
-</pre>
 
