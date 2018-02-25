@@ -1,6 +1,6 @@
 Template.blocks.helpers({
     'transactions':function(){
-        return Transactions.find().fetch()
+        return Transactions.find({},{sort:{date:-1}}).fetch()
     },
     'theTran':function(){
         var self = this;
