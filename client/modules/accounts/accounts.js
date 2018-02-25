@@ -1,6 +1,6 @@
 Template.accounts.helpers({
     'accounts': function () {
-        return EthAccounts.find().fetch()
+        return EthAccounts.find({},{sort:{name:1}}).fetch()
     },
     'bal': function (baler) {
 

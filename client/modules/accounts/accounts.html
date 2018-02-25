@@ -9,10 +9,10 @@
     <table class="table-striped table-bordered table">
         <thead>
         <tr>
-            <th>Name</th>
+
             <th>Address</th>
             <th>Balance</th>
-            <th>Faucet</th>
+            <!--<th>Faucet</th>-->
         </tr>
         </thead>
         <tbody>
@@ -20,18 +20,21 @@
 
         {{#each accounts}}
             <tr>
-                <td><a href="#" class="editName"><i class="fa fa-edit"></i></a> {{name}} </td>
-                <td>{{> dapp_identicon identity=address class="dapp-tiny"}} {{address}}</td>
+
+                <td>
+                    <div><a href="#" class="editName"><i class="fa fa-edit"></i></a> <b>{{name}}</b></div>
+                    {{> dapp_identicon identity=address class="dapp-tiny"}} {{address}}</td>
                 <td>{{bal balance}} <small>ether</small></td>
-                <td><div class="btn btn-primary btn-xs theFaucet"><i class="fa fa-shower"></i> 10 ether</div></td>
+                <!--<td><div class="btn btn-primary btn-xs theFaucet"><i class="fa fa-shower"></i> 10 ether</div></td>-->
             </tr>
         {{/each}}
         </tbody>
     </table>
 
-        <h4>Create Account</h4>
+        <h4>Account Options</h4>
         <div class="button-container">
             <div class="btn create-account btn-primary"><i class="fa fa-key"></i> Create Account</div>
+            <div class="btn import-account btn-primary"><i class="fa fa-upload"></i> Import Account</div>
         </div>
     </div>
 </template>

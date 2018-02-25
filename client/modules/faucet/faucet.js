@@ -11,11 +11,12 @@ Template.faucet.events({
         var self = {
             address: $(event.target).find('select').val()
         };
-        var thePassword = 'test';
-        var theAddress = '0xbe406cde3bbce65fea8da371f500af66cdfa2451';
+        var thePassword = 'harry';
+        var theAddress = web3.eth.coinbase;
+
         web3.personal.unlockAccount(theAddress, thePassword, function (err, resp) {
             if (!err) {
-                web3.eth.sendTransaction({'from':theAddress,'to':self.address,value:web3.toWei(10,'ether')},function(err,resp){
+                web3.eth.sendTransaction({'from':theAddress, 'to':self.address,value:web3.toWei(10,'ether')},function(err,resp){
                     if (!err) {
                         swal("Success:","your transaction has been submitted to the Blockchain","success")
                             .then(function (value) {
