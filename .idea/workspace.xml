@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="198842e6-407b-43f6-b325-cf5c8c4b2794" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/modules/blocks/blocks.js" afterPath="$PROJECT_DIR$/client/modules/blocks/blocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/mainLayout/mainLayout.html" afterPath="$PROJECT_DIR$/client/mainLayout/mainLayout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blocks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="blocks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/modules/blocks/blocks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
@@ -100,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainLayout.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainLayout.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/mainLayout/mainLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -173,13 +173,13 @@
         <option value="$PROJECT_DIR$/node_modules/dappzy/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/dappzy/package.json" />
         <option value="$PROJECT_DIR$/node_modules/dappzy/README.md" />
-        <option value="$PROJECT_DIR$/client/mainLayout/mainLayout.html" />
         <option value="$PROJECT_DIR$/client/modules/faucet/faucet.js" />
         <option value="$PROJECT_DIR$/node_modules/dappzy/dappzy.js" />
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/settings.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client/modules/blocks/blocks.js" />
+        <option value="$PROJECT_DIR$/client/mainLayout/mainLayout.html" />
       </list>
     </option>
   </component>
@@ -386,7 +386,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519497252046</updated>
       <workItem from="1519497253257" duration="25661000" />
-      <workItem from="1519587431896" duration="7583000" />
+      <workItem from="1519587431896" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="ready to test">
       <created>1519601500969</created>
@@ -399,7 +399,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33244000" />
+    <option name="totallyTimeSpent" value="33279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1080" y="47" width="2560" height="1440" extended-state="0" />
@@ -733,14 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/mainLayout/mainLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/modules/faucet/faucet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -793,6 +785,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mainLayout/mainLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
