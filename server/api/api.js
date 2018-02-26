@@ -66,7 +66,7 @@ JsonRoutes.add("get", "/api/accounts", function (req, res, next) {
     });
 });
 
-JsonRoutes.add("post", "/api/method", function (req, res, next) {
+JsonRoutes.add("post", "/api/sendTransaction", function (req, res, next) {
     var data = req.body;
     web3.personal.unlockAccount(data.from.address, data.from.password, function (err, resp) {
         if (!err) {
@@ -89,6 +89,22 @@ JsonRoutes.add("post", "/api/method", function (req, res, next) {
             });
         }
     });
+});
+
+JsonRoutes.add("post", "/api/importAccount", function (req, res, next) {
+    var data = req.body;
+    web3.personal.importRawKey(data.key,data.password,function(err,resp){
+        if(!err){
+            JsonRoutes.sendResult(res, {
+                data:resp
+            });
+        }else{
+            JsonRoutes.sendResult(res, {
+                data:err.message
+            });
+        }
+    })
+
 });
 
 
