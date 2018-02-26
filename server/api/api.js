@@ -71,10 +71,10 @@ JsonRoutes.add("post", "/api/method", function (req, res, next) {
     web3.personal.unlockAccount(data.from.address, data.from.password, function (err, resp) {
         if (!err) {
 
-            var theTransaction = web3.eth.sendTransaction({to: data.to.address,data:data.data, from: data.from.address, value: data.value},function(error,response){
+            web3.eth.sendTransaction({to: data.to.address,data:data.data, from: data.from.address, value: data.value},function(error,response){
             if(!error){
                 JsonRoutes.sendResult(res, {
-                    data: theTransaction
+                    data: response
                 });
             }else{
                 JsonRoutes.sendResult(res, {
