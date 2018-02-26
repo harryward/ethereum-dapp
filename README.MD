@@ -25,7 +25,7 @@ This is a simple Ethereum + Meteor dApp Boilerplate Application that comes with 
 
 `meteor npm install -save`
 
-`meteor --port 5406 --settings settings.json`
+`meteor --port 5406`
 
 4. Open the `ethereum-dapp`  in your favorite code editor
 5. Open up your web browser and navigate to `<a href="http://localhost:5406">http://localhost:5406</a>`

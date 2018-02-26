@@ -25,7 +25,6 @@ Template.faucet.events({
                                 Transactions.insert({_id:resp,to:self.address,from:theAddress,date:new Date()});
                             });
 
-
                     } else {
                         swal('Invalid Password', err.message, 'error');
                         return false
