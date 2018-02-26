@@ -35,5 +35,5 @@ frozeman:global-notifications
 numeral:numeral
 ethereum:tools
 ethereum:blocks
-frozeman:persistent-minimongo2
 simple:json-routes
+frabrunelle:bitcore-lib

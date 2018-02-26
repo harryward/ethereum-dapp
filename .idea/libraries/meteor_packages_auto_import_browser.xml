@@ -57,6 +57,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/lib/hqx.js" />
         <item url="file://$USER_HOME$/.meteor/packages/frozeman_template-var/1.2.3/web.browser/TemplateVar.js" />
         <item url="file://$USER_HOME$/.meteor/packages/frozeman_animation-helper/0.2.6/web.browser/packages/frozeman:animation-helper.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/frabrunelle_bitcore-lib/0.13.10/web.browser/bitcore.browserify.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_common.js" />
         <item url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_client.js" />
@@ -284,6 +285,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/ethereum_elements/0.7.18/web.browser/lib/hqx.js" />
       <root url="file://$USER_HOME$/.meteor/packages/frozeman_template-var/1.2.3/web.browser/TemplateVar.js" />
       <root url="file://$USER_HOME$/.meteor/packages/frozeman_animation-helper/0.2.6/web.browser/packages/frozeman:animation-helper.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/frabrunelle_bitcore-lib/0.13.10/web.browser/bitcore.browserify.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_common.js" />
       <root url="file://$USER_HOME$/.meteor/packages/url/1.2.0/web.browser/url_client.js" />

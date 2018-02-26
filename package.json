@@ -9,13 +9,16 @@
     "async": "^2.6.0",
     "babel-runtime": "^6.26.0",
     "bcrypt": "^1.0.3",
+    "bitcoin-transaction": "^1.1.0",
+    "bitcoind-rpc": "^0.7.1",
+    "dappzy": "^1.0.2",
     "dwolla-v2": "^1.3.2",
     "etherchain": "^1.0.1",
     "ethereum-web3-plus": "^0.4.1",
+    "litecoin": "^1.1.3",
     "meteor-node-stubs": "^0.3.2",
     "net": "^1.0.2",
     "sweetalert": "^2.1.0",
-    "truffle-contract": "^3.0.2",
-    "dappzy": "^1.0.0"
+    "truffle-contract": "^3.0.2"
   }
 }
