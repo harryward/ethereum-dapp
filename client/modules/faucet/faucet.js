@@ -1,6 +1,6 @@
 Template.faucet.helpers({
     'accounts':function(){
-        return EthAccounts.find({'address':{$nin:[web3.eth.coinbase]}}).fetch()
+        return EthAccounts.find().fetch()
     },
 
 });
